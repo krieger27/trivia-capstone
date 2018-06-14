@@ -1,0 +1,38 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krieger27/Front-End-Capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krieger27/Front-End-Capstone/issues"
+  },
+  "homepage": "https://github.com/krieger27/Front-End-Capstone#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-angular-builder": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "matchdep": "^0.3.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-chart.js": "^1.1.1",
+    "angular-route": "^1.6.9",
+    "bulma": "^0.6.2",
+    "chart.js": "^2.7.1",
+    "firebase": "^4.9.1"
+  }
+}

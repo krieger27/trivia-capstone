@@ -1,0 +1,13 @@
+<div class="jumbotron">
+        <div ng-if="score>0" ng-model="score"><p><strong>Current Score</strong></p> {{score}}</div>
+        <br>
+    <div ng-repeat="question in questions">{{question.question}}</div>
+    <div ng-repeat="chooice in chooices">
+        <button type="button" class="btn btn-outline-info" ng-click="checkChooice(chooice)">{{chooice}}</button>
+        <!-- <button class="btn" ng-click=answer></button> -->
+    </div>
+</div>
+<button class="btn" ng-click="qCounter()">Next Question</button>
+</div>
+<button class="btn" ng-click="startGame()">Start Game</button>
+</div>
